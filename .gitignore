@@ -1,0 +1,17 @@
+.DS_Store
+*.pyc
+__pycache__/
+
+# Xcode user/build state
+xcuserdata/
+*.xcuserstate
+DerivedData/
+
+# Local iOS secrets
+watersheep app/Config/Secrets.xcconfig
+
+# Backend local/runtime state
+watersheep-backend/watersheep/backend/.env
+watersheep-backend/watersheep/backend/.venv/
+watersheep-backend/watersheep/backend/watersheep.db
+watersheep-backend/watersheep/backend/uploads/

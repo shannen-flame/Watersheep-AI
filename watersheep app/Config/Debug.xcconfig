@@ -1,0 +1,5 @@
+CLIENT_TOKEN =
+
+// Put the rotated Meta client token in Secrets.xcconfig.
+// This optional include keeps clean clones buildable without committing secrets.
+#include? "Secrets.xcconfig"
